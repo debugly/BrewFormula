@@ -58,8 +58,9 @@ class Mrffmpeg < Formula
 
   def install
     args = %W[
-      --prefix=~/Desktop/MRFFmpeg
+      --prefix=#{prefix}
       --disable-shared
+      --enable-static
       --enable-pthreads
       --enable-version3
       --cc=#{ENV.cc}
