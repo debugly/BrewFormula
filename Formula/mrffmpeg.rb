@@ -102,6 +102,8 @@ class Mrffmpeg < Formula
       --enable-libzimg
       --disable-libjack
       --disable-indev=jack
+      --disable-avresample
+      --disable-postproc
     ]
 
     # libavresample has been deprecated and removed but some non-updated formulae are still linked to it
