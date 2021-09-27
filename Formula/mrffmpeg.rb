@@ -1,5 +1,5 @@
-class Ffmpeg < Formula
-  desc "Play, record, convert, and stream audio and video"
+class Mrffmpeg < Formula
+  desc "Based on https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/ffmpeg.rb; play record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
   url "https://ffmpeg.org/releases/ffmpeg-4.4.tar.xz"
   sha256 "06b10a183ce5371f915c6bb15b7b1fffbe046e8275099c96affc29e17645d909"
